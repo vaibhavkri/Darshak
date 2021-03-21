@@ -14,3 +14,8 @@ rasa shell
 # pip update
 python -m pip install -U pip
 
+# install ngrok (for deployment globally outside on the internet)
+brew install --cask ngrok
+
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
