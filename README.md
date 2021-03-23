@@ -19,3 +19,12 @@ brew install --cask ngrok
 
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install flask
+pip install Flask
+
+# check all setup
+from flask import Flask, redirect, url_for, request, render_template
+import requests
+import json
+
