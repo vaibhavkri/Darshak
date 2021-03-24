@@ -1,11 +1,17 @@
 # Darshak
+
+# create new venv
+virtualenv -p python3 venv
  
+# install rasa and check
+pip install rasa
+pip list | grep rasa
+
 # rasa x taking forever to install:
 pip install rasa rasa-x -i https://pypi.rasa.com/simple --default-timeout=10000 --use-deprecated=legacy-resolver
 
 # python 3.8 venv
-source darshak_venv/bin/activate
-cd Darshak
+source venv/bin/activate
 
 # rasa run
 rasa train
@@ -27,4 +33,8 @@ pip install Flask
 from flask import Flask, redirect, url_for, request, render_template
 import requests
 import json
+
+# install requirements
+pip install -r requirements.txt
+
 
