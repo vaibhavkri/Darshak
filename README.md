@@ -10,6 +10,9 @@ pip list | grep rasa
 # rasa x taking forever to install:
 pip install rasa rasa-x -i https://pypi.rasa.com/simple --default-timeout=10000 --use-deprecated=legacy-resolver
 
+# Install all the libraries
+pip install -r requirements.txt
+
 # python 3.8 venv
 source venv/bin/activate
 
