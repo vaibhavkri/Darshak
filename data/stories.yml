@@ -1,30 +1,44 @@
 version: "2.0"
-
 stories:
-
-- story: happy path
+- story: orientation
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
+  - intent: orientation
+  - action: utter_orientation
+  - intent: more
+  - action: utter_detail_orientation
+  - intent: goodbye
+  - action: utter_goodbye
+- story: training
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+  - intent: training
+  - action: utter_training
+  - intent: goodbye
+  - action: utter_goodbye
+- story: profile
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: profile
+  - action: utter_profile
+  - intent: more
+  - action: utter_more_profile
   - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
+  - action: utter_goodbye
+- story: Story from Conversation ID ef6dabc619cb4712a5db14a223ffa769
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+- story: Story from Conversation ID 79310e7ebd914840bbad7e18f92ff727
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: profile
+  - action: utter_profile
+  - intent: more
+  - action: utter_more_profile
+  - intent: gratitude
   - action: utter_goodbye

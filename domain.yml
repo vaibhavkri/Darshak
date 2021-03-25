@@ -19,22 +19,35 @@ intents:
     use_entities: true
 - bot_challenge:
     use_entities: true
+- orientation:
+    use_entities: true
+- more:
+    use_entities: true
+- training:
+    use_entities: true
+- profile:
+    use_entities: true
+- gratitude:
+    use_entities: true
 entities: []
 slots: {}
 responses:
   utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
+  - text: How can I help you?
   utter_goodbye:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_orientation:
+  - text: R.V. College of Engineering (RVCE) established in 1963 is one of the earliest self-financing engineering colleges in the country. The institution is run by Rashtreeya Sikshana Samithi Trust (RSST) a not for profit trust. The trust runs over 25 institutions and RVCE is the flagship institute under the trust. RVCE is today recognized as one of India’s leading technical institution.
+  utter_detail_orientation:
+  - text: Established in 1963 with three engineering branches namely Civil, Mechanical and Electrical, today RVCE offers 12 Under Graduate Engineering programmes, 16 Master Degree programmes and Doctoral Studies.Located 13 km from the heart of Bangalore City – the Silicon Valley of India, on Mysore Road.Sprawling campus spread over an area of 50.97 acres set in sylvan surroundings.Provides an ideal ambience to stimulate the teaching-learning process, helping in bringing out skilled and disciplined Engineers. Rated one amongst the top ten self-financing Engineering Institutions in the country. Current annual student intake for Undergraduate Programmes & Post Graduate Programmes in Engineering is in excess of 1200. Highly qualified and dedicated faculty. Utilizes its expertise in various disciplines to conduct Research and Development for Industry and Defense establishments in the country.
+  utter_training:
+  - text: There are no traings right now.
+  utter_profile:
+  - text: Name - Vaibhavkrishna Bhosle
+  utter_more_profile:
+  - text: Sorrry, no more details available.
 actions: []
 forms: {}
 e2e_actions: []
