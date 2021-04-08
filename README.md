@@ -1,4 +1,4 @@
-# Darshak
+## Darshak
 
 # create new venv
 virtualenv -p python3 venv
@@ -21,7 +21,7 @@ rasa train
 rasa shell
 
 # pip update
-python -m pip install -U pip
+python3 -m pip install -U pip
 
 # install ngrok (for deployment globally outside on the internet)
 brew install --cask ngrok
@@ -40,4 +40,5 @@ import json
 # install requirements
 pip install -r requirements.txt
 
-
+# install rasa core if not found error
+pip install --ignore-installed rasa_core
