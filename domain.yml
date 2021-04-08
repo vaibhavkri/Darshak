@@ -19,15 +19,25 @@ intents:
     use_entities: true
 - bot_challenge:
     use_entities: true
-- orientation:
-    use_entities: true
 - more:
     use_entities: true
-- training:
-    use_entities: true
-- profile:
-    use_entities: true
 - gratitude:
+    use_entities: true
+- college_profile:
+    use_entities: true
+- course_offered:
+    use_entities: true
+- admission:
+    use_entities: true
+- location:
+    use_entities: true
+- hostel:
+    use_entities: true
+- library:
+    use_entities: true
+- infrastructure:
+    use_entities: true
+- clubs:
     use_entities: true
 entities: []
 slots: {}
@@ -38,16 +48,123 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-  utter_orientation:
+  utter_college_profile:
   - text: R.V. College of Engineering (RVCE) established in 1963 is one of the earliest self-financing engineering colleges in the country. The institution is run by Rashtreeya Sikshana Samithi Trust (RSST) a not for profit trust. The trust runs over 25 institutions and RVCE is the flagship institute under the trust. RVCE is today recognized as one of India’s leading technical institution.
-  utter_detail_orientation:
-  - text: Established in 1963 with three engineering branches namely Civil, Mechanical and Electrical, today RVCE offers 12 Under Graduate Engineering programmes, 16 Master Degree programmes and Doctoral Studies.Located 13 km from the heart of Bangalore City – the Silicon Valley of India, on Mysore Road.Sprawling campus spread over an area of 50.97 acres set in sylvan surroundings.Provides an ideal ambience to stimulate the teaching-learning process, helping in bringing out skilled and disciplined Engineers. Rated one amongst the top ten self-financing Engineering Institutions in the country. Current annual student intake for Undergraduate Programmes & Post Graduate Programmes in Engineering is in excess of 1200. Highly qualified and dedicated faculty. Utilizes its expertise in various disciplines to conduct Research and Development for Industry and Defense establishments in the country.
-  utter_training:
-  - text: There are no traings right now.
-  utter_profile:
-  - text: Name - Vaibhavkrishna Bhosle
-  utter_more_profile:
-  - text: Sorrry, no more details available.
+  utter_detail_college_profile:
+  - text: visit https://rvce.edu.in/history for more details.
+  utter_course_offered:
+  - text: |-
+      UG programs 
+      Aerospace Engineering 
+      Biotechnology 
+      Civil Engineering 
+      Chemical Engineering 
+      Computer Science & Engineering 
+      Electrical & Electronics Engineering 
+      Electronics & Communication Engineering 
+      Electronics & Instrumentation Engineering 
+      Industrial Engineering & Management 
+      Information Science & Engineering 
+      Mechanical Engineering 
+      Electronics & Telecommunication Engineering 
+       
+      PG Programs 
+      Structural Engineering 
+      Highway Technology 
+      Product Design & Manufacturing 
+      Computer Integrated & Manufacturing 
+      Machine Design 
+      Power Electronics 
+      VLSI Design & Embedded Systems 
+      Communication Systems 
+      Computer Science & Engineering 
+      Computer Network Engineering 
+      Digital Communication 
+      Radio Frequency and Microwave Enineering 
+      Software Engineering 
+      Information Technology 
+      Biotechnology
+  utter_detail_course_offered:
+  - text: visit https:rvce.edu.inug-pg-programs for more details
+  utter_admission:
+  - text: |-
+      1) KCET–Karnataka Common path Test known as KCET is held for neighborhood Karnataka understudies. Through KCET 45% of the seats are administered to the close-by understudies. There charge structure is extraordinarily less appeared differently in relation to COMEDK and MANAGEMNENT standard understudies. DIRECT ADMISSION IN RV COLLEGE OF ENGINEERING BANGALORE 2019-20 
+      2) COMEDK – Consortium of Medical, Engineering and Dental Colleges of Karnataka noticeably known as COMEDK is an all INDIA level test. Candidates from all of the bits of Country strive for the seats in various structure colleges. Through COMEDK 30% of the seats are assigned to commendable understudies. DIRECT ADMISSION IN RV COLLEGE OF ENGINEERING BANGALORE 2019-20 
+      3)MANAGEMENT QUOTA–In specific colleges, the administrative people are assigned a particular QUOTA of the seats in each division which are known as MANAGEMENT QUOTA SEATS. Through organization sum 25% of the seats are finished off. We can help you in DIRECT ADMISSION IN RV COLLEGE OF ENGINEERING BANGALORE 2019-20 under organization sum.
+  utter_detail_admission:
+  - text: visit https:rvce.edu.inadmission for more details
+  utter_location:
+  - text: |-
+      R V Vidyanikethan Post 
+      Mysuru Road Bengaluru - 560 059 
+      Ph - 91 - 080-6717 8000  8021  8020 
+      Fax- 91 - 080-6717 8011 
+      Email-  principal@rvce.edu.in
+  utter_detail_location:
+  - text: https:/www.google.com/maps/place/RV+College+of+Engineering%C2%AE/@12.923728,77.4965125,17z/data=!4m12!1m6!3m5!1s0x3bae3ee159ba3729:0x75a3463d510cf26e!2sRV+College+of+Engineering%C2%AE!8m2!3d12.9237228!4d77.4987012!3m4!1s0x3bae3ee159ba3729:0x75a3463d510cf26e!8m2!3d12.9237228!4d77.4987012
+  utter_hostel:
+  - text: |-
+      A home away from home, is the concept of hostels in RVCE. We provide the best possible comfort needed for students. The number of students accommodated in a room depends on the semester. As the concentration and privacy required is more as a student progress from first year to final year, accordingly the accommodation is provided. 
+       
+      There is only one common mess for all the boarders and is provided in Cauvery block with vegetarian food. The boarders are provided sports, gymnasium and Wi-Fi facilities.
+  utter_detail_hostel:
+  - text: |-
+      Chamundi block- First year U.G. students. 
+      Cauvery Annex block - First year U.G. students. 
+      Cauvery block – Second & Third year U.G. students and 
+      Sir M. Visweswaraya block- Final year U.G. and P.G. students. 
+      First, Second and Third year P.G. students. 
+      The entire Hostel for Boys is located at R. V. College of Engineering Campus. 
+      For Information- Hostel Office - 080-67178424 / 67178148.
+  utter_library:
+  - text: |-
+      The department of library and information centre was established in the year 1963 currently with three technical staff – library science professionals and five non - technical staff. Library has a vast collection of books, reference books, bound volumes, technical national and international journals, e- books, e- journals, encyclopedia and other multimedia resources, document collection volume is 172639. Library subscribes 233 technical journals 23 technical magazines and 15 daily newspapers which include English and Kannada. 
+       
+      Institution has subscribed to Skillsoft e-Books 24x7 for accessing e-books which includes Engineering Pro   IT Pro, it has a collection of 45111 e-books. 
+       
+      Gartner research database for accessing technology related insight, written research, access to peer portal, these resources are web based can be accessed anytime  anywhere. 
+       
+      E- Journals are subscribed through VTU e-Resource Consortium, the e- journals are from various leading publisher and is a value added service to the readers, and it has a collection of 1661 e- Journals and 11,111 e-Books, Institutional Subscription IEEE, it has a collection of 1990 e-journals and conference proceedings. These resources are IP based and can be accessed through Digital library, anywhere in the campus and home also.
+  utter_detail_library:
+  - text: |-
+      Library Collections	Numbers 
+      Titles	55366 
+      Volumes	172639 
+      Bound Volumes	2916 
+      National Journals	233 
+      e-Journals	3651 
+      Conference Proceedings	705 
+      e-Books	45111 
+      CD's DVD's	2295
+  utter_infrastructure:
+  - text: R.V. College is spread over 16.85 acres (16 acers & 34 guntas) Ramps and lifts have been provided to help the differently abled and sick. 90% of the class rooms are provided with multimedia projectors and internet facility. All academic blocks have secured Wi-Fi connectivity.
+  utter_detail_infrastructure:
+  - text: |-
+      Food Court 
+      Transport 
+      Bank 
+      Health  Center 
+      Gym 
+      Sports 
+      Internet (WIFI) 
+      Rain water harvesting
+  utter_clubs:
+  - text: |-
+      TEAM VYOMA 
+      TEAM CHIMERA 
+      TEAM GARUDA 
+      TEAM HELIOS 
+      SOLAR CAR TEAM 
+      PROJECT JATAYU 
+      TEAM ASTRA 
+      TEAM KRUSHI 
+      TEAM ANTARIKSH 
+      FREQUENCY CLUB 
+      TEAM HYDRA 
+      ENTREPRENEURSHIP DEVELOPMENT CELL 
+      CODING CLUB
+  utter_detail_clubs:
+  - text: visit https://rvce.edu.in/rvce-students-clubs-technical-innovative for more details.
 actions: []
 forms: {}
 e2e_actions: []

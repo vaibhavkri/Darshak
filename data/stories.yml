@@ -1,44 +1,91 @@
 version: "2.0"
 stories:
-- story: orientation
+- story: college profile
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: orientation
-  - action: utter_orientation
+  - intent: college_profile
+  - action: utter_college_profile
   - intent: more
-  - action: utter_detail_orientation
+  - action: utter_detail_college_profile
   - intent: goodbye
   - action: utter_goodbye
-- story: training
+
+- story: course offered
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: training
-  - action: utter_training
+  - intent: course_offered
+  - action: utter_course_offered
+  - intent: more
+  - action: utter_detail_course_offered
   - intent: goodbye
   - action: utter_goodbye
-- story: profile
+
+- story: admission
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: profile
-  - action: utter_profile
+  - intent: admission
+  - action: utter_admission
   - intent: more
-  - action: utter_more_profile
-  - intent: affirm
+  - action: utter_detail_admission
+  - intent: goodbye
   - action: utter_goodbye
-- story: Story from Conversation ID ef6dabc619cb4712a5db14a223ffa769
+
+- story: location
   steps:
   - intent: greet
   - action: utter_greet
-- story: Story from Conversation ID 79310e7ebd914840bbad7e18f92ff727
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: profile
-  - action: utter_profile
+  - intent: location
+  - action: utter_location
   - intent: more
-  - action: utter_more_profile
-  - intent: gratitude
+  - action: utter_detail_location
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: hostel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hostel
+  - action: utter_hostel
+  - intent: more
+  - action: utter_detail_hostel
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: library
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: library
+  - action: utter_library
+  - intent: more
+  - action: utter_detail_library
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: infrastructure
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: infrastructure
+  - action: utter_infrastructure
+  - intent: more
+  - action: utter_detail_infrastructure
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: clubs
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: clubs
+  - action: utter_clubs
+  - intent: more
+  - action: utter_detail_clubs
+  - intent: goodbye
   - action: utter_goodbye
