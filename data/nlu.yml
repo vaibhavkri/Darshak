@@ -17,6 +17,7 @@ nlu:
     - good afternoon
     - Hey
     - google
+    - Hi
 - intent: goodbye
   examples: |
     - good afternoon
@@ -93,7 +94,6 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: more
   examples: |
     - more
@@ -106,7 +106,6 @@ nlu:
     - elobrate
     - more deep
     - can you tell me a bit more?
-
 - intent: college_profile
   examples: |
     - about college
@@ -115,10 +114,10 @@ nlu:
     - college details
     - academy details
     - institute details
-
 - intent: course_offered
   examples: |
     - course
+    - course list
     - stream
     - program of study
     - core curriculum
@@ -129,10 +128,8 @@ nlu:
     - prospectus
     - educational programme
     - programme of study
-    - programme of studies
     - training course
     - handbook
-
 - intent: admission
   examples: |
     - college acceptance
@@ -143,8 +140,6 @@ nlu:
     - college enrollment
     - collefe enroll
     - join college
-    
-    
 - intent: location
   examples: |
     - place of college
@@ -154,7 +149,6 @@ nlu:
     - region of college
     - where is the college
     - geographical location
-
 - intent: hostel
   examples: |
     - dormitory
@@ -168,7 +162,6 @@ nlu:
     - domicile
     - shelter
     - occupecy
-  
 - intent: library
   examples: |
     - library
@@ -180,7 +173,6 @@ nlu:
     - reading room
     - branch library
     - books gallery
-
 - intent: infrastructure
   examples: |
     - structure
@@ -190,7 +182,6 @@ nlu:
     - amenities
     - resources
     - basic facilities
-
 - intent: clubs
   examples: |
     - association
@@ -201,8 +192,6 @@ nlu:
     - clubs
     - club
     - clubhouses
-
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
