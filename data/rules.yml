@@ -11,3 +11,52 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: college profile
+  steps:
+  - intent: college_profile
+  - action: utter_college_profile
+
+
+- rule: course offered
+  steps:
+  - intent: course_offered
+  - action: utter_course_offered
+
+
+- rule: admission
+  steps:
+  - intent: admission
+  - action: utter_admission
+
+
+- rule: location
+  steps:
+  - intent: location
+  - action: utter_location
+
+
+- rule: hostel
+  steps:
+  - intent: hostel
+  - action: utter_hostel
+
+
+- rule: library
+  steps:
+  - intent: library
+  - action: utter_library
+
+
+
+- rule: infrastructure
+  steps:
+  - intent: infrastructure
+  - action: utter_infrastructure
+
+
+
+- rule: clubs
+  steps:
+  - intent: clubs
+  - action: utter_clubs

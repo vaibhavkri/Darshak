@@ -1,8 +1,9 @@
 ## Darshak
 
 # create new venv
-virtualenv -p python3 venv
- 
+source /opt/anaconda3/bin/activate
+conda activate rasa-2-1-2
+
 # install rasa and check
 pip install rasa
 pip list | grep rasa
@@ -19,6 +20,8 @@ source venv/bin/activate
 # rasa run
 rasa train
 rasa shell
+
+rasa run -m models --enable-api --cors "*" --debug
 
 # pip update
 python3 -m pip install -U pip
