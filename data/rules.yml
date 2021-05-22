@@ -17,46 +17,54 @@ rules:
   - intent: college_profile
   - action: utter_college_profile
 
-
 - rule: course offered
   steps:
   - intent: course_offered
   - action: utter_course_offered
-
 
 - rule: admission
   steps:
   - intent: admission
   - action: utter_admission
 
-
 - rule: location
   steps:
   - intent: location
   - action: utter_location
-
 
 - rule: hostel
   steps:
   - intent: hostel
   - action: utter_hostel
 
-
 - rule: library
   steps:
   - intent: library
   - action: utter_library
-
-
 
 - rule: infrastructure
   steps:
   - intent: infrastructure
   - action: utter_infrastructure
 
-
-
 - rule: clubs
   steps:
   - intent: clubs
   - action: utter_clubs
+
+- rule: even_sem_start
+  steps:
+  - intent: even_sem_start
+  - action: utter_even_sem_start
+
+- rule: odd_sem_start
+  steps:
+  - intent: odd_sem_start
+  - action: utter_odd_sem_start
+
+- rule: holiday
+  steps:
+  - intent: holiday
+  - action: utter_holiday
+
+

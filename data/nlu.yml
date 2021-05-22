@@ -192,6 +192,28 @@ nlu:
     - clubs
     - club
     - clubhouses
+
+- intent: even_sem_start
+  examples: |
+    - When will the even sem commence?
+    - When will the even sem start?
+    - When will the odd semester commence?
+    - When wi-ll the odd semester start?
+
+- intent: odd_sem_start
+  examples: |
+    - When will the odd sem commence?
+    - When will the odd sem start?
+    - When will the odd semester commence?
+    - When will the odd semester start?
+
+- intent: holiday
+  examples: |
+    - when are the Holidays?
+    - when are the vacatations?
+    - when are the semester brakes?
+
+
 - intent: bot_challenge
   examples: |
     - are you a bot?

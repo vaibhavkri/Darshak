@@ -39,9 +39,41 @@ intents:
     use_entities: true
 - clubs:
     use_entities: true
+- even_sem_start:
+    use_entities: true
+- odd_sem_start:
+    use_entities: true
+- holiday:
+    use_entities: true
 entities: []
 slots: {}
 responses:
+  utter_even_sem_start:
+  - text: August 1st
+  utter_odd_sem_start:
+  - text: February 13th
+  utter_holiday:
+  - text: |-
+        4.01.2021 – Thursday – Makara Sankranti Festival
+        26.01.2021 – Tuesday – Republic Day
+        11.03.2021 – Thursday – Maha Shivaratri
+        02.04.2021 – Friday – Good Friday
+        13.04.2021 – Tuesday – Ugadi Festival
+        14.04.2021 – Wednesday – Dr. B.R.Ambedkar Jayanthi
+        01.05.2021 – Saturday – May Day
+        14.05.2021 – Friday – Basava Jayanthi/Akshaya Tritiya, Khutub-E-Ramzan
+        21.07.2021 – Wednesday – Bakrid
+        20.08.2021 – Friday – Last day – of Moharam
+        10.09.2021 – Friday – Varasiddhi Vinayaka Vrata
+        02.10.2021 – Saturday – Gandhi Jayanthi
+        06.10.2021 – Wednesday – Mahalaya Amavasye
+        14.10.2021 – Thursday – Mahanavami, Ayudhapooja
+        15.10.2021 – Friday – Vijayadasami
+        20.10.2021 – Wednesday – Maharshi Valmiki Jayanthi , Eid-Milad
+        01.11.2021 – Monday – Kannada Rajyothsava
+        03.11.2021 – Wednesday – Naraka Chaturdashi
+        05.11.2021 – Friday – Balipadyami, Deepavali
+        22.11.2021 – Monday – Kanakadasa Jayanthi
   utter_greet:
   - text: How can I help you?
   utter_goodbye:

@@ -10,7 +10,7 @@ stories:
   - action: utter_detail_college_profile
   - intent: goodbye
   - action: utter_goodbye
-
+ 
 - story: course offered
   steps:
   - intent: greet
@@ -90,3 +90,29 @@ stories:
   - intent: goodbye
   - action: utter_goodbye
 
+- story: even_sem_start
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: even_sem_start
+  - action: utter_even_sem_start
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: odd_sem_start
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: odd_sem_start
+  - action: utter_odd_sem_start
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: holiday
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: holiday
+  - action: utter_holiday
+  - intent: goodbye
+  - action: utter_goodbye
